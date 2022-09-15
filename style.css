@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #867d7d;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nabla', cursive;
+    font-size: 70px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+}
+
+#color {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+#rainbow {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+#clear {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+.container {
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+  }
+  
+  .color-blue {
+    background-color: blue;
+  }
+  
+  .color-red {
+    background-color: red;
+  }
+  
+  .color-white {
+    background-color: whitesmoke;
+  }
+  
+  .color-purple {
+    background-color: purple;
+  }
